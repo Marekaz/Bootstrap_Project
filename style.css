@@ -1,7 +1,44 @@
+/* Styling Nav Section */
+.navbar-nav{
+gap: 60px;
+}
 
+.navbar-nav :hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
 
+/* Styling Nav Section */
 
+.button2{
+    border-style: solid;
+}
 
+.Div_Line .Line {
+    height: 2.5px;
+    width: 63%;
+    margin-bottom: 18px;
+    background-color: rgba(0, 0, 0, 0.294);
+}
+
+.Div_Line {
+    height: auto;
+    width: auto;
+    margin-top: 0;
+    top: 10px;
+  }
+
+  /* Media Query */
+
+@media only screen and (max-width: 900px) {
+    .navbar-nav{
+        gap: 0px;
+    }
+    body{
+        padding: 10px 10px;
+    }
+
+}
 
 
 
