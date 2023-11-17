@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio</title>
         <!-- Linking My Bootstrap Stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -12,37 +12,42 @@
        <link rel="stylesheet" href="/style.css">
          <!-- Linking my css stylesheet -->
 
+        <!-- Linking Boxicons -->
+         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+          <!-- Linking Boxicons -->
+
 </head>
 <body>
-       <!-- Nav bar section -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button"data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-    </button>
-   <div class="collapse navbar-collapse justify-content-center border-dark" id="navbarNav">
-    <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">FX Rates</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Crypto Rates</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Business News</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link active">Travel</a>
-          </li>
-          <li class="nav-item active">
-              <a class="nav-link" href="">Sports</a>
-          </li>
-          <li class="nav-item active">
-              <a class="nav-link" href="">BD Conferences</a>
-          </li>
-    </ul>
-   </div>
- </nav>
+    <!-- Nav bar section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button"data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+     <div class="collapse navbar-collapse justify-content-center border-dark" id="navbarNav">
+      <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">FX Rates</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Crypto Rates</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Business News</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link active">Travel</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="">Sports</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="">BD Conferences</a>
+            </li>
+      </ul>
+     </div>
+   </nav>
+   
     <!-- Hero Section -->
     <section class="container-fluid row mt-5">
         <div class="col-sm-12 col-lg-8">
@@ -54,23 +59,23 @@
          <p class="text-center">Exchange rates can fluctuate frequently and can vary between financial institutions. Always verify rates with official sources before making finanical decisions
          </p>
          <div class="row">
-          <div class="border col-5 p-4">
+          <div class="border col-sm-5 col-lg-5 col-md-5 p-4">
            <div class="row">
-            <h5 class="col-12">Amount in Naira</h5>
-             <small class="col-9 text-muted">Amount</small>
-             <select class="col-3" name="Currency" id="">NGN
+            <h5 class="col-sm-12 col-md-12 col-lg-12">Amount in Naira</h5>
+             <small class="col-sm-9 col-lg-9 col-md-9 text-muted">Amount</small>
+             <select class="col-sm-3 col-lg-3 col-md-3" name="Currency" id="">NGN
                <option value="Naira">NGN</option>
                <option value="Pounds">GBP</option>
                <option value="Dollar">USD</option>
              </select>
             </div>
            </div>
-           <div class="col-sm-2 p-lg-5 p-md-5 p-sm-5"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAASlJREFUaEPtmFEOAiEMRGdPpp5MPZl6Mk1N+NC4C6WztMTy5QfQvpm6FBZMPpbJ80cCeDuYDqQDRgWyhDoFPAK4d679WObhwAXAGcAVgPw2jdEAJfmStBliJICUze2H3CaIkQCS+7cDZidGA9AhPACoEF4ANAhPAAqEN4AZogXgaTppbItPtRM7OoC0GwKxOqIDSOKbOUYGEPUftX6pBcBWxTuvToCdBa5u/xcOSAd5ACDtsMeY9itUxDIDyCXES33KObB2kxpVTmYHzA3XnqSarxD9OsgA0wCEdEILEA6iByAURC9AGAgLwBZE9SbF+ANXD4nGIPTnwsa472lWB0os6oOtB4DEpD2ZewFo4tLmskqIlpB2owTQKsaenw6wFdXulw5oFWPPfwEdiDIxMMMTbAAAAABJRU5ErkJggg=="/></div>
-           <div class="border col-5 p-4">
+            <div class="icon col-sm-2 col-lg-2 p-sm-5 h2"><i class='bx bx-transfer-alt'></i></div>
+           <div class="border col-sm-5 col-lg-5 col-md-5 p-4">
             <div class="row">
-              <h5 class="col-12">Amount in AED</h5>
-              <small class="col-9">Amount</small>
-              <select class="col-3" name="Currency" id="">NGN
+              <h5 class="col-sm-12 col-md-12 col-lg-12">Amount in AED</h5>
+              <small class="col-sm-9 col-md-9 col-lg-9">Amount</small>
+              <select class="col-sm-3 col-md-3 col-lg-3" name="Currency" id="">NGN
                 <option value="Dirham">AED</option>
                 <option value="Pounds">GBP</option>
                 <option value="Dollar">USD</option>
@@ -78,6 +83,7 @@
             </div>
           </div>
         </div>
+        <h6 class="text-right mt-3">1.00 AED= 300 NGN</h6>
         <div class="d-flex justify-content-center"> 
             <button class="button2 btn-danger px-5 mt-5">Clear</button></div>
         </div>
@@ -85,26 +91,26 @@
        <!-- Currency converter section -->
     
         <!-- Card Section -->
-        <div class="col-sm-12 col-md-12 col-lg-4">
+        <div class="Market col-sm-12 col-md-12 col-lg-4">
          <h1 class="h3">Market News</h1>
-          <div class="Div_Line">
-           <div class="Line"></div>
+          <div class="div_line">
+           <div class="line"></div>
             <div class="mt-3">
-             <div class="card" style="width: 18rem;">
+             <div class="card" style="width: 32rem;">
             <img src="https://th.bing.com/th/id/R.979b5270178aa89aed624954726e3e1a?rik=%2fzrRMhTSCYUKVQ&riu=http%3a%2f%2forbus.ca%2fwp-content%2fuploads%2f2019%2f02%2fcropped-people-exchanging-money.jpg&ehk=SX8ukD%2f%2bZF15ghADGfW2nQZaXBNR1oSnrUDbpkgh3fA%3d&risl=&pid=ImgRaw&r=0" alt="cash exchange going on between two people">
             <div class="card-body">
               <h5 class="card-title">Naira Falls To Record Low At Official FX Market</h5>
               <small class="card-text">1 day ago</small>
             </div>
           </div>
-          <div class="card" style="width: 18rem;">
+          <div class="card" style="width: 32rem;">
             <img src="https://az705044.vo.msecnd.net/20190129/29-1-2019-5-26-55-pm.png" alt=" A chart displaying exchange stocks rise and fall">
             <div class="card-body">
              <h5>Equities Market Moves Further High By 0.07%</h5>
               <small class="card-text">2 days ago</small>
             </div>
            </div>
-           <div class="card" style="width: 18rem;">
+           <div class="card" style="width: 32rem;">
             <img src="https://th.bing.com/th/id/OIP.dqzNDSr-ozCyH_ck3ZSu9AHaEL?pid=ImgDet&rs=1" alt="Different Currencies">
             <div class="card-body">
             </div>
